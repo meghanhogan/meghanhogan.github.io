@@ -58,4 +58,16 @@
       }
     }
   }
+
+  @media (max-width: 600px) {
+    .content {
+      .photo-stack {
+        margin-top: 1em;
+        img {
+          margin: 1rem 0;
+          width: 300px;
+        }
+      }
+    }
+  }
 </style>

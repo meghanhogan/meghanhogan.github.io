@@ -13,8 +13,20 @@
     padding: 1rem;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     img {
       margin: 0 1rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+      img {
+        margin: 1rem 0;
+        width: 300px;
+      }
     }
   }
 </style>
