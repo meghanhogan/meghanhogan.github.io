@@ -45,11 +45,11 @@
   .content {
     padding: 1rem;
     .photo-stack {
+      margin: auto;
       position: relative;
       display: flex;
       justify-content: center;
       cursor: pointer;
-      width: 100vw;
       img {
         margin-top: 3rem;
         &.stack {
