@@ -1,0 +1,28 @@
+:root {
+  font-family: "PT Mono", monospace;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+body {
+  font-family: "PT Mono", monospace;
+  background-color: #c8c2ae;
+  color: #2b4141;
+  box-sizing: border-box;
+  margin: 1rem;
+}
+
+.content {
+  margin-top: 1em;
+}
+
+a {
+  color: #2b4141;
+  &:hover,
+  &:focus {
+    color: #f02d3a;
+    transition: 500ms ease-in-out;
+  }
+}
