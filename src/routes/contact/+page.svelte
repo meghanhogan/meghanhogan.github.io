@@ -1,3 +1,6 @@
+<script lang="ts">
+</script>
+
 <div class="content">
   <a href="mailto:meghannellhogan@gmail.com"
     >meghannellhogan@gmail.com</a
@@ -13,5 +16,6 @@
   .content {
     padding: 1rem;
     display: block;
+    background-size: auto;
   }
 </style>

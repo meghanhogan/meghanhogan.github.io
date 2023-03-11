@@ -22,7 +22,7 @@
 
 <div class="content">
   <div class="text">
-    My name is Meghan. I'm an engineer living in New York.
+    My name is Meghan. <br /> I'm an engineer living in New York.
   </div>
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <div class="photo-stack" on:click={onNextPhoto}>
